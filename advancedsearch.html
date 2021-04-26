@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google Advanced search</title>
+	<link rel="stylesheet" type="text/css" href="advancedsearch.css">
+	<header>
+		<a href="search.html">
+			<img src="google.png" alt="Google" width="100" height="35">
+		</a>
+	</header>
+</head>
+<body>
+	<div id="head">
+		<label style="margin-left: 10px">Advanced Search</label>
+	</div>
+	<div id="container">
+
+		<div id="content">
+			<form action="https://google.com/search">
+				<div class="courser">
+					<label for="inp1" class="label">all these words: </label>
+					<input type="text" id="inp1" name="as_q">
+					<label for="inp1" class="labels">Önemli kelimeleri yazın: boz renkli tarla faresi </label>
+				</div>
+
+				<div class="courser">
+					<label for="inp2" class="label">this exact word or phrase: </label>
+					<input type="text" id="inp2" name="as_epq">
+					<label for="inp1" class="labels">Kelimelerin tamamını tırnak içine alın: "boz tarla faresi" </label>
+				</div>
+
+				<div class="courser">
+					<label for="inp3"  class="label">any of these words:</label>
+					<input type="text" id="inp4" name="as_oq">
+					<label for="inp1" class="labels" name="as_eq">İstediğiniz tüm kelimelerin arasına OR yazın: minyatür OR standart </label>
+				</div>
+
+				<div class="courser">
+					<label for="inp5"  class="label">none of these words:</label>
+					<input type="text" id="inp5">
+					<label for="inp1" class="labels">İstemediğiniz kelimelerin hemen önüne bir eksi işareti koyun: -kemirgen, -"Jack Russell"</label>
+				</div>
+
+				<div class="submitting">
+					<input type="submit" value="Advanced search">
+				</div>
+		</form>
+		</div>
+	</div>
+</body>
+</html>
